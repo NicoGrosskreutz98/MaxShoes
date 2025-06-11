@@ -27,8 +27,7 @@ fun NavigationBarBottom(
 
     NavigationBar(
         modifier = modifier
-            .height(77.dp)
-            .padding(6.dp) ,
+            .height(77.dp),
         containerColor = Color.Transparent
     ) {
         BottomNavItem.menuItens.forEach { menu ->
